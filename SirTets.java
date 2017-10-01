@@ -10,9 +10,10 @@ public class SirTets {
 
     /**
      * @param args the command line arguments
+     * test
      */
     public static void main(String[] args) {
-		
+  
 
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextLine()) {
@@ -25,7 +26,7 @@ public class SirTets {
                 if (input.length == 2) {
                     //do Sir Tets
                     System.out.println("you printed two numbers");
-				
+    
                 } else {
                     System.out.println("# Syntax error" + "\n");
                 }
@@ -33,5 +34,5 @@ public class SirTets {
 
         }
     }
-	
+ 
 }
