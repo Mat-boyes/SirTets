@@ -36,12 +36,6 @@ public class Grid {
         return grid[x][y];
     }
 
-    public static void main(String[] args) {
-        Grid g = new Grid(10,10);
-        g.getCoord(5,5);
-        g.getGrid();
-        
-    }
     
 }
 
