@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Mathew Boyes, Kimberley Smith 4293059, Ash Cochrane
+ * @author Mathew Boyes, Kimberley Smith 4293059, Ash Cochrane 4288387
  */ 
 
 public class SirTets {
@@ -14,7 +14,7 @@ public class SirTets {
     public static void main(String[] args) {
   
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); 
         while (scanner.hasNextLine()) {
             String ln = scanner.nextLine();
             String[] input = ln.split(" ");
@@ -22,9 +22,12 @@ public class SirTets {
             if (!ln.isEmpty() && ln.charAt(0) != '#') {
                 System.out.println(ln);
 
-                if (input.length == 2) {
-                    //do Sir Tets
-                    System.out.println("you printed two numbers");
+                if (input.length == 2) {  
+                  int first = Integer.parseInt(input[0]);
+                  int second = Integer.parseInt(input[1]);
+                  Grid g = new Grid(first, second);
+                  g.getGrid();
+        
     
                 } else {
                     System.out.println("# Syntax error" + "\n");

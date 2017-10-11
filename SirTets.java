@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Mathew Boyes, Kimberley Smith 4293059, Ash Cochrane 4288387
+ * @author Mathew Boyes, Kimberley Smith, Ash Cochran
  */ 
 
 public class SirTets {
@@ -35,6 +35,8 @@ public class SirTets {
             }
 
         }
+        scanner.close();
+        
     }
  
 }
